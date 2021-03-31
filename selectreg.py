@@ -1,4 +1,4 @@
-print("Iniciando con MySql")
+print("Iniciando con MySql PRUEBA 3RE COMMIT")
 import mysql.connector
 miConexion = mysql.connector.connect( host='localhost', user= 'root', passwd='lara', db='prueba' )
 cur = miConexion.cursor()
