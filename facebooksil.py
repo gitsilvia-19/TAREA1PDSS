@@ -23,7 +23,7 @@ for x in myresult:
   contraseña=x[1]
   driver = webdriver.Firefox()
   time.sleep(5)
-  driver.get("https://www.facebook.com/")
+  driver.get("https://www.facebook.com")
 
   #correo="christian.desarrollosoft@gmail.com"
   #contraseña="Funcion1"
