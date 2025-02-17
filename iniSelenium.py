@@ -9,6 +9,6 @@ elem.send_keys("salex_lara@hotmail.com")
 
 elem = driver.find_element_by_id("pass")
 elem.clear()
-elem.send_keys("7791lara")
+elem.send_keys("")
 
 elem.send_keys(Keys.RETURN)
